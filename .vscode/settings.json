@@ -1,0 +1,12 @@
+{
+    "github.autoPublish": true,
+    "github.preferedMergeMethod": "rebase",
+    "github.upstream": "rahuljauhari/javascript",
+    "github.allowUnsafeSSL": true,
+    "github.remoteName": "rahuljauhari/javascript",
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "git.rebaseWhenSync": true,
+    "openInGitHub.repositoryType": "github",
+    "openInGitHub.defaultBranch": "rahuljauhari/javascript/tree/master"
+}

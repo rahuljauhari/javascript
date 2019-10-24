@@ -1,0 +1,24 @@
+From d4941d154ea09e1ceba3b108ee2541b9d46406a8 Mon Sep 17 00:00:00 2001
+From: rahuljauhari <jauhari.rahul@gmail.com>
+Date: Fri, 18 Oct 2019 12:16:39 +0530
+Subject: Create celsiustofahrenheit
+
+
+diff --git a/celsiustofahrenheit b/celsiustofahrenheit
+new file mode 100644
+index 0000000..3e540bc
+--- /dev/null
++++ b/celsiustofahrenheit
+@@ -0,0 +1,12 @@
++//convert fahrenheit to celsius 
++
++let convertFahrenheittoCelsius = function (fahrenheit) {
++   let celsius = (fahrenheit - 32) * 5/9
++    return celsius
++}
++
++let tempOne = convertFahrenheittoCelsius(32)
++let tempTwo = convertFahrenheittoCelsius(68)
++
++console.log(tempOne)
++console.log(tempTwo)
